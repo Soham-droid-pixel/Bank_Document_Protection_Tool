@@ -1,0 +1,52 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment and virtualenvs
+.env
+.venv/
+venv/
+env/
+*.env
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files (macOS/Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+bank_doc_protector.log
+
+# Test/coverage files
+.coverage
+htmlcov/
+coverage.xml
+pytest_cache/
+.tox/
+
+# Compiled files
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local credentials or keys
+secrets.json
+*.pem
+*.key
+
+# Optional: Ignore Excel/PDF test outputs
+*.xlsx
+*.pdf
