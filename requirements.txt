@@ -1,0 +1,51 @@
+# Bank Document Protection Tool - Requirements
+# Production-ready dependencies for banking environment
+
+# Core PDF processing
+pypdf==3.0.1
+
+# Excel file creation with password protection
+xlsxwriter==3.1.9
+
+# Secure password storage (Windows Credential Manager)
+keyring==24.3.0
+
+# Cryptography for secure operations
+cryptography==41.0.7
+
+# GUI framework (usually included with Python)
+# tkinter  # Built-in with Python on Windows
+
+# Optional: Advanced PDF features
+# PyPDF2==3.0.1  # Alternative PDF library
+# reportlab==4.0.4  # PDF generation
+
+# Optional: Enhanced Excel features
+# openpyxl==3.1.2  # Excel reading/writing
+# pandas==2.1.4  # Data manipulation
+
+# Optional: Enhanced security
+# bcrypt==4.1.2  # Password hashing
+# argon2-cffi==23.1.0  # Password hashing
+
+# Development and testing dependencies (comment out for production)
+# pytest==7.4.3
+# pytest-cov==4.1.0
+# black==23.11.0
+# flake8==6.1.0
+# mypy==1.7.1
+
+# Windows-specific dependencies
+# pywin32==306  # Windows API access (auto-installed with keyring)
+
+# Optional: Enhanced logging and monitoring
+# structlog==23.2.0  # Structured logging
+# colorlog==6.8.0  # Colored console logging
+
+# Optional: Configuration management
+# python-dotenv==1.0.0  # Environment variable management
+# pydantic==2.5.0  # Data validation
+
+# Optional: GUI enhancements
+# ttkthemes==3.2.2  # Enhanced tkinter themes
+# pillow==10.1.0  # Image processing for GUI icons
